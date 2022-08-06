@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up</title>
+</head>
+
+<body>
+  <h4>Sign Up </h4>
+  <form enctype="text/plain" action="mailto: pronoyb95@gmail.com " method="post">  <!-- form syntax  -->
+   <!-- action=   says that what should happen after submission of the form.
+         action=mailto: mail_address   means it will open mail client and attach
+                        all data to it,
+        enctype=text/plain  means all text are in the form of plain text.                -->
+    <label>Your Name</label>                         <!-- field name to be shown  -->
+    <input type="text" name="My Name" value="" required>             <!-- input type text  -->
+
+    <br><br>
+    <label>Your Resume</label>
+    <input type="file" name="" value="" required>
+
+    <br><br>
+    <label>Date of Birth</label>
+    <input type="date" name="DOB" value="" required>
+
+    <br><br>
+    <label>Address</label>
+    <input type="Address" name="Address" value="">
+
+    <br><br>
+    <label>Phone No.</label>
+    <input type="number" name="Ph. No" value=""required>
+
+    <br><br>
+    <label>Email ID</label>
+    <input type="email" name="Email" value="" required>
+
+    <br><br>
+    <label>Choose your User ID</label>
+    <input type="text" name="" value="" required>
+    <br><br>
+    <label>Enter Password</label>
+    <input type="password" name="" value="" required>
+    <br><br>
+    <label>Your message(500 words)</label>
+    <br>
+    <textarea name="My Message" rows="10" cols="50"></textarea> <!-- larger text area than regular text field  -->
+    <br>
+    <p>
+      <input type="checkbox" name="" value="" required>
+      I am giving consent to use my personal details to contact me back
+    </p>
+    <br><br>
+    <input type="submit" name="">
+  </form>
+  <p>After submission of form, your mail client/mail webpage will open with all file attached that you enterd here</p>
+</body>
+
+</html>
